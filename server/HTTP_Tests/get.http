@@ -1,0 +1,12 @@
+# GET http://localhost:5000/users/getAllUsers
+# GET http://localhost:5000/users/getUser/63966621fc2adb9456b7b50a
+# GET http://localhost:5000/users/getWishlists/6391de4b0ca20cf8333bd782
+# GET http://localhost:5000/evaluations/AllFeedback
+# GET http://localhost:5000/evaluations/FeedbackById/6393a78b67d0851b1fa56c4d
+# GET http://localhost:5000/evaluations/GetReplies/63922b14f48e90be090bad78
+
+# GET http://localhost:5000/request/requestProduct
+# GET http://localhost:5000/exchange
+
+# GET http://localhost:5000/resell/oneTime/6393302dd3d3848d8d2c06c1
+# GET http://localhost:5000/resell

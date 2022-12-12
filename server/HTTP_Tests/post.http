@@ -1,0 +1,73 @@
+# POST http://localhost:5000/users/createAccount
+# Content-Type: application/json
+
+# {
+#     "username": "hend2003",
+#     "name": "hend",
+#     "email": "hend@gamil.com" ,
+#     "password": "hend123@" ,
+#     "phoneNumber": "42532542" ,
+#     "gender": "male" ,
+#     "address": "fvfgbdsgv"
+# }
+
+# POST http://localhost:5000/products
+# Content-Type: application/json
+
+# {
+#     "title": "iPhone",
+#     "category": "Mobile",
+#     "description": "Apple new iphone 14",
+#     "price": 6000,
+#     "city": "Cairo",
+#     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     "addedAt": "3/1/2022",
+#     "active": true
+# }
+
+
+
+# POST http://localhost:5000/evaluations/AddFeedback
+# Content-Type: application/json
+
+# {
+#     "feedback": "Any feedback",
+#     "rating": 10,
+#     "reply": [],
+#     "userId": "6391de4b0ca20cf8333bd782"
+# }
+
+
+# POST http://localhost:5000/exchange/insert
+# Content-Type: application/json
+
+# {
+#     "title": "iPhone",
+#     "category": "Mobile",
+#     "description": "Apple new iphone 14",
+#     "city": "Cairo",
+#     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     "addedAt": "3/1/2022",
+#     "comment": "idkk",
+#     "status": "pending"
+# }
+
+# POST http://localhost:5000/resell/insert
+# Content-Type: application/json
+
+# {
+#     "title": "Shatha",
+#     "description": "Apple new iphone 14",
+#     "price": 6000,
+#     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     "addedAt": "3/1/2022",
+#     "status": "Not purchased",
+#     "counterOffers": [
+#         {
+#             //"userID": "234",
+#             //"price": 1000,
+#             //"status": "pending"
+#         }
+      
+#     ]
+# }

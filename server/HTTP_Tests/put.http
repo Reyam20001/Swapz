@@ -1,0 +1,121 @@
+# PUT http://localhost:5000/users/updateUser/6390f1730daa6bbb9f7901d8 
+# Content-Type: application/json
+
+# {
+#     "name": "Reyam",
+#     "email": "israa@gamil.com",
+#     "password": "reyam123@",
+#     "phoneNumber": "6746573565",
+#     "gender": "Female",
+#     "avatar": "avatar2",
+#     "address": "any other address",
+#     "wishedProducts": []
+# }
+
+# PUT http://localhost:5000/users/addWishlist/6391de4b0ca20cf8333bd782
+# Content-Type: application/json
+
+# {
+#     "_id": "638f7a11a6d8cfaa49b9436a"
+
+# }
+
+
+# PUT http://localhost:5000/evaluations/AddReply/63922b14f48e90be090bad78
+# Content-Type: application/json
+
+# {
+#     "reply": "i like this product"
+
+# }
+
+
+# PUT http://localhost:5000/evaluations/AddReply/63922b14f48e90be090bad78
+# Content-Type: application/json
+
+# {
+#     "reply": "i don't like this product"
+
+# }
+
+
+# PUT http://localhost:5000/exchange/offer/63946fa3efc9724b46caa04b
+# Content-Type: application/json
+
+# {
+#         "UserID": "765",
+#         "status": "pending"
+
+# }
+
+# PUT http://localhost:5000/resell/accept/63960d195b29e206275a3e56
+# Content-Type: application/json
+
+# {
+#     // "title": "iPhone",
+#     // "description": "Apple new iphone 14",
+#     // "price": 6000,
+#     // "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     // "addedAt": "3/1/2022",
+#     // "status": "Purchased",
+#     //"counterOffers": [
+#        // {
+#             "userID": "6390d48bfe627fea51b5449d",
+#             "price": 1000,
+#             "status": "pending"
+#         //}
+      
+#    // ]
+
+# }
+
+
+# PUT http://localhost:5000/resell/EditItem/6393302dd3d3848d8d2c06c1
+# Content-Type: application/json
+
+# {"title": "iPhone",
+#     "description": "Apple new iphone 14",
+#     "price": 6000,
+#     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     "addedAt": "3/1/2022",
+#     "status": "israa edited",
+#     "counterOffers": [
+#         {
+#             "userID": "6390d48bfe627fea51b5449d",
+#             "price": 1000,
+#             "status": "pending"
+#         }
+      
+#     ]
+
+# }
+
+# PUT http://localhost:5000/resell/purchase/6393302dd3d3848d8d2c06c1
+# Content-Type: application/json
+
+# {"title": "iPhone",
+#     "description": "Apple new iphone 14",
+#     "price": 6000,
+#     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617560",
+#     "addedAt": "3/1/2022",
+#     "status": "israa purchased yarab",
+#     "counterOffers": [
+#         {
+#             "userID": "6390d48bfe627fea51b5449d",
+#             "price": 1000,
+#             "status": "pending"
+#         }
+      
+#     ]
+
+# }
+
+
+# PUT http://localhost:5000/resell/negotiate/63960d195b29e206275a3e56
+# Content-Type: application/json
+
+# {
+#   "price": 1234,
+#   "userID": "6390d48bfe627fea51b5449d",
+#   "status": "pending"
+# }

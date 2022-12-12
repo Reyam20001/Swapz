@@ -1,0 +1,3 @@
+# DELETE  http://localhost:5000/users/deleteItem/6390ed26ec5bf7f58d5058fc
+# DELETE  http://localhost:5000/exchange/delete/639391f5375b92c95c7c8701
+# DELETE http://localhost:5000/resell/delete/6391dc98488b9325270f91d1
